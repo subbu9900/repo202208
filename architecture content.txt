@@ -1,0 +1,26 @@
+Developres:
+  Developer writes the code in their environment and push the code    to  bitbucket repo.
+Bitbucket:
+  Bit bucket is one kind version controle tool and it can places   the repositorys 
+Jenkins:
+  jenkins is a ci/cd tool , when their was a  new commit in   bitbucket through webhook jenkins triggerd the code .  Build the   code .
+Sonarqube : 
+   sonarqube is a quality gate check,only if the check passes,jenkins build will pass to the next stage or it will be fail and send a mail,
+to the respective reciepents can look what bugs/vulnarabilities/wrong code are present by logs using sonarqube dashboard.
+Docker:
+ once the build the pipline we get war file , so we can take that war file  and create the docker file on top of war file , we can execute the docker file we got the docker image  
+ that image can be stored in ecr repository.
+Ecr:
+ ecr is a one kind of storage for our build images  store in aws registery, so it can be like a  docker harbour registery.
+
+
+kubernetes: 
+once the image is got ecr repository we can deploy the that image to kubernetes environment .
+now we can see the our application in the kubernetes . 
+
+
+Promothus and Grafana: 
+
+In this promotheus and grafana it can be collect the all the cluster information can be collect and visualize can be placed in  the garfana .
+Grafana is the one kind of great dashbord  to the all detailes are placed in graphical wise date is present.
+ 
