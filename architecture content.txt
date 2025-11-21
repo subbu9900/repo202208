@@ -23,4 +23,6 @@ Promothus and Grafana:
 
 In this promotheus and grafana it can be collect the all the cluster information can be collect and visualize can be placed in  the garfana .
 Grafana is the one kind of great dashbord  to the all detailes are placed in graphical wise date is present.
- 
+
+ Update as Developer@November@2025 
+Newly Intraduse the code with backend and find out the Links as From source code, If get any Invalied files Re-Install the file
